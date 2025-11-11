@@ -17,7 +17,7 @@ def delete_danhmuc(id_danhmuc: int):
         conn.commit()
 
         if cursor.rowcount > 0:
-            print(f"✅ Đã xóa danh mục ID = {id_danhmuc} thành công!")
+            print(f"✅ Đã xóa danh mục ID = {id_danhmuc} thành côngggggg nhân!")
             return True
         else:
             print(f"⚠️ Không tìm thấy danh mục có ID = {id_danhmuc}.")
